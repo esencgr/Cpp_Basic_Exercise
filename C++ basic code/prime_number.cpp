@@ -4,8 +4,8 @@ using namespace std;
 
 bool asalmi (int x) 
     {
-    for (int i=2; i<x; i++) {
-    if (x%i==0) 
+    for (int i = 2; i < x;  i++) {
+    if (x % i == 0) 
         {
         return false;
         }    
@@ -17,7 +17,7 @@ int asal  (int x)
 {
 	int c=0;
     int i;
-    for (i = 2; c<x; i++) 
+    for (i = 2; c < x; i++) 
     { 
     if (asalmi(i)){
  
@@ -30,5 +30,5 @@ int asal  (int x)
 int main()
 {
 
-     cout<<asal(1)<<endl;
+     cout<< asal(1) <<endl;
 }

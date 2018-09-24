@@ -15,34 +15,34 @@ int main()
     int skor;
 	
 	
-	for (int i=0; i<n; i++){
+	for (int i = 0; i < n; i++){
 		
 	  int z1 = rand ()%6+1;
 	  int z2 = rand ()%6+1;
-	  a[i]=z1;
-	  b[i]=z2;
+	  a[i] = z1;
+	  b[i] = z2;
 	
-	     if (z1>z2)
+	     if (z1 > z2)
 	     skor++;
 	     
-         if (z2>z1)
+         if (z2 > z1)
 	     skor--;
 	}
 	
-	for (int i=0; i<n; i++){
-        cout << a[i]<<' ';
+	for (int i = 0; i < n; i++){
+        cout << a[i] <<' ';
 	}
-	    cout<<endl;
+	    cout << endl;
 	 	
-	for (int i=0; i<n; i++){
-        cout << b[i]<<' ';
+	for (int i = 0; i < n; i++){
+        cout << b[i] <<' ';
 	}
-	    cout<<endl;
+	    cout << endl;
         
-        if (skor<0)
-           cout<< "2. oyuncu kazandi"<<endl;
-        else if (skor>0)
-           cout<< "1. oyuncu kazandi"<<endl;
+        if (skor < 0)
+           cout << "2. oyuncu kazandi" <<endl;
+        else if (skor > 0)
+           cout << "1. oyuncu kazandi" <<endl;
         else 
-           cout<< "beraberlik"<<endl;
+           cout << "beraberlik" <<endl;
 }

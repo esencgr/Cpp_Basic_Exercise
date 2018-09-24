@@ -9,15 +9,15 @@ int main()
     cin >> n ;
 
     cout <<"elemanlari gir:";
-      int a[n];
-        for (int i=0 ; i<n ; i++){
+    int a[n];
+        for (int i = 0; i < n; i++){
 			cin >> a[i] ;
 		}
 	
-      int toplam=0;
-	    for (int i=0; i<n ;i++){
-        toplam +=a[i];
+    int toplam = 0;
+	    for (int i =0; i < n; i++){
+        toplam += a[i];
         }
-    cout << " dizinin elemanlari toplami:"<<toplam ;
+    cout << " dizinin elemanlari toplami:"<< toplam ;
     
 }

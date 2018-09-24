@@ -14,7 +14,7 @@ int main()
     int skor; // sonucu belirlemek için bir degisken atiyoruz
     int a[n]; 
     int b[n]; //zar degerlerinin tutulmasi için hafiza 
-    for (int i=0; i<n; i++) {
+    for (int i = 0; i < n; i++) {
         
         int z1 = rand()%6+1; //birincinin zarlari
         int z2 = rand()%6+1; //ikincinin zarlari
@@ -35,18 +35,17 @@ int main()
         cout << a[i] << "  " ;
         }
         cout << endl;
-    for (int i=0; i<n;i++) {
+    for (int i = 0; i < n; i++) {
         cout << b[i] << "  " ;
         }
         cout << endl;
         //skorun belirlenebilmesi içinn
-    if (skor>0) {
+    if (skor > 0) 
         cout << "birinci kullanici kazanmistir" << endl;
-        }
-        else if (skor<0){
+        
+        else if (skor < 0)
         cout << "ikinci kullanici kazanmistir" << endl;
-            }
-    else {
-        cout << "oyun beraberedir" << endl;
-        }
+                
+        else  
+		cout << endl; 
 }

@@ -6,9 +6,9 @@ int main()
     
     //break komutu
     
-    for (int a = 0; a<10; a++) {
+    for (int a = 0; a < 10; a++) {
         
-        if (a==5)
+        if (a == 5)
             break;
         
         cout << a << " ";
@@ -17,9 +17,9 @@ int main()
     cout << endl;
     //continue komutu
     
-     for (int b = 0; b<10; b++) {
+     for (int b = 0; b < 10; b++) {
         
-        if (b==5)
+        if (b == 5)
             continue;
         
         cout << b << " ";

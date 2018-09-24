@@ -7,7 +7,7 @@ int main()
     int tahmin ;
 	int cevap;
 	srand(time (NULL));
-	int random= rand ()%10;
+	int random = rand () % 10;
 	don:
 	cout << "bir sayi tahmin edin:  "<< endl;
 	cin >> tahmin ;
