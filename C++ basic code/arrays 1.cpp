@@ -13,8 +13,8 @@ int main ()
 	    for (int i = 0; i <= 2; i++)
 	        cout<< a[i] << ' ';
 	        cout<< "}" << endl;
-    
-	    int b[4];
+   
+	int b[4];
         b[0] = 10;
         b[1] = 20;
         cin>> b[2];
