@@ -13,7 +13,7 @@ int main()
         
         cout << a << " ";
         
-        }
+    }
     cout << endl;
     //continue komutu
     
@@ -24,7 +24,7 @@ int main()
         
         cout << b << " ";
         
-        }
+     }
     
     
     
