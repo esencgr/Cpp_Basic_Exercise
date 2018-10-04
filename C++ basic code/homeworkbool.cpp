@@ -29,10 +29,10 @@ int main()
   }
   else {
   	cout << "ilk sayi kucuk degil"<< endl;
-	  if (esit)	// if(true) if(false)
-	  cout << "ilk sayi kucuk esit"<< endl;
-	  else 
-	  cout << "ilk sayi kucuk esit degil"<< endl;
+	     if (esit)	// if(true) if(false)
+	        cout << "ilk sayi kucuk esit"<< endl;
+	     else 
+	        cout << "ilk sayi kucuk esit degil"<< endl;
   }
   if (kucuk) // x<y
   {
@@ -41,10 +41,10 @@ int main()
   }
   else {
   	cout << "ikinci sayi buyuk degil"<< endl;
-  	 if (esit)	// if(true) if(false)
-	   cout << "ilk sayi buyuk esit"<< endl;
-	   else 
-	   cout << "ilk sayi buyuk esit degil"<< endl;
+  	     if (esit)	// if(true) if(false)
+	        cout << "ilk sayi buyuk esit"<< endl;
+	     else 
+	        cout << "ilk sayi buyuk esit degil"<< endl;
   }
   return 0;
 }

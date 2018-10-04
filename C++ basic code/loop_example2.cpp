@@ -10,9 +10,9 @@ int main()
                 
                 cout << c << " - " ;
                 
-        	}  
+        }  
         	
-            cout<<endl;
+    cout<<endl;
 
         for (int i=100; i>=70; i--){
         	
@@ -20,9 +20,9 @@ int main()
         
                 cout << i << " - " ;
  
-            }
+        }
              
-            cout<<endl;
+    cout<<endl;
             
         for (int i=1; i<=100; i++){
         	
@@ -30,7 +30,7 @@ int main()
         
                 cout << i << " - " ;
                 
-            }
+         }
         
 
 }
