@@ -21,8 +21,8 @@ int main()
                 esit = false; //eger esit degilse yanlis olarak döner ve 
                 break ; // eger esit degilse donguden çikar ..
                 
-                }
-            }
+        }
+    : }
             
             if(esit) {
             cout << "alt dizisidir ve " << i << " 'den baslar" << endl;

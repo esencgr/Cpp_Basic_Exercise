@@ -12,7 +12,7 @@ int main() {
          for (int j = 0; j < 2; j++) {
     // 1 ve 2 mi yoksa 3 ve 4 mü önce basılacak diyerek onu da sırası ile j değişkeine bağladık
              cout << a[i][j] << " " ;
-             }
-             cout << endl; //her satır bittiginde alt satıra geçmesi için
          }
+             cout << endl; //her satır bittiginde alt satıra geçmesi için
+     }
 }

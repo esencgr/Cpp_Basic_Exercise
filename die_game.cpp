@@ -23,29 +23,34 @@ int main()
         b[i]= z2;
         
     
-        if (z1>z2){
+        if (z1>z2)
             skor++;
-            }
-        else if (z2>z1) {
-            skor--;
-            }
-        }
+           
+        else if (z2>z1) 
+	    skor--;
+           
+    }
+    
     //atilan zar degerlerini ekranda bastirmak icin
-    for (int i=0; i<n;i++) {
+    
+    for (int i=0; i<n;i++) 
         cout << a[i] << "  " ;
-        }
+        
         cout << endl;
-    for (int i = 0; i < n; i++) {
+
+    for (int i = 0; i < n; i++) 
         cout << b[i] << "  " ;
-        }
+       
         cout << endl;
-        //skorun belirlenebilmesi içinn
-    if (skor > 0) 
+
+    //skorun belirlenebilmesi içinn
+   
+	if (skor > 0) 
         cout << "birinci kullanici kazanmistir" << endl;
         
         else if (skor < 0)
         cout << "ikinci kullanici kazanmistir" << endl;
                 
         else  
-		cout << endl; 
+	cout << endl; 
 }
