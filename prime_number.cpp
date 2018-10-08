@@ -8,7 +8,7 @@ bool asalmi (int x){
             return false;
             
     }
-    return true; 
+return true; 
 }
 
 int asal  (int x){
