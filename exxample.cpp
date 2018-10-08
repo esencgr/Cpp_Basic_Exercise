@@ -13,19 +13,17 @@ int main()
     while (a <= 100)  
     {
         if (a%2==1)
-		{ 
-		cout << a << "*" ;
-		} 
-		a++;    
+	 
+	   cout << a << "*" ;
+	   a++;    
     }
   
 cout << endl;
 
     while (a<100)
-     {
-	 cout << a << "-";
-	 
-	 a+=2;
+    {
+	   cout << a << "-" ;
+	   a+=2;
 	 
     }
 }

@@ -6,14 +6,15 @@ int main()
          
          int toplam =0;
 		  
-         for (int a=0; a< 5 ; a++) 
-             { 
-             int okunandeger;
+         for (int a=0; a< 5 ; a++){ 
+    
+	     int okunandeger;
              cout << "lutfen bir sayi giriniz" << endl;
              cin >> okunandeger;
              toplam += okunandeger; 
-             }
-             cout << "ortalamasi:" << toplam/5 << endl;
+             
+	 }
+    cout << "ortalamasi:" << toplam/5 << endl;
     
     return 0;
 }

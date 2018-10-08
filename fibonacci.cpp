@@ -17,7 +17,7 @@ int main()
         else {
 	
            cout << a << endl << b << endl;
-                for (int i = 1; i <= c-2; i++) {
+  :              for (int i = 1; i <= c-2; i++) {
     	            int c = a+b;	
                     a = b;
                     b = c;

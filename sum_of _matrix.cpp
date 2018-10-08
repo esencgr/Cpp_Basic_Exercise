@@ -14,15 +14,15 @@ int main()
             
             c[i][j] = a[i][j] + b[i][j]; // a[i][j] += b[i][j]
         }
-        }
+    }
     
-     for (int i = 0; i < 2; i++) {
+    for (int i = 0; i < 2; i++) {
         for (int j = 0; j < 3; j++) {
             
             cout << "  " << c[i][j];
         }
-        cout << endl;
-        }
+    cout << endl;
+    }
    
     return 0;
 }

@@ -13,11 +13,11 @@ int main()
     
     if (a*a + b*b == c*c || a*a + c*c == b*b || c*c + b*b == a*a  ) {
         cout << "dik ucgendir" << endl;
-        }
+    }
         
     else {
         cout << "dik ucgen degildir" << endl;
-        }
+    }
     
     return 0;
 }

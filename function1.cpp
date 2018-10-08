@@ -2,10 +2,8 @@
 using namespace std;
 
 int f (int x) {
-        
     cout << x << endl;
-        
-        }
+}
     
 
 int main()

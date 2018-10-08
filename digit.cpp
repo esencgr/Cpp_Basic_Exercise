@@ -15,7 +15,7 @@ int main()
 	    	sayac++;
 	    	if (sayi <1) 
 	        	break ;
-	   }
+	}
    cout << "girilen sayinin basamak sayisi : "<< sayac << endl;
    cout << "sayinin basamaklari :";
  
@@ -25,7 +25,7 @@ int main()
             ilksayi = ilksayi / 10;
             cout << basamak << " "; 
             toplam += basamak;
-       }
+        }
     cout << endl;
     cout << "basamaklar toplami :" << toplam;
 }

@@ -10,22 +10,22 @@ int main()
     	
     	int y,b;
     	
-    	if (i <= boyut/2){
+    	if (i <= boyut/2)
     	    y = 2*i + 1;
-	}
-	else {
+	
+	else 
 	    y = 2*(boyut-i-1) + 1;
-	}
+	
 		
 		
         b= (boyut-y) / 2; 
         
-            for (int j = 0; j < b; j++){
+            for (int j = 0; j < b; j++)
         	cout << " ";
-	    }    
-            for (int j = 0; j < y; j++){
+	        
+            for (int j = 0; j < y; j++)
         	cout << "*";
-	    }
-     cout << endl;
-     }
+	    
+    cout << endl;
+    }
 }
