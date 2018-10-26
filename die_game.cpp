@@ -11,7 +11,7 @@ int main()
     cin >> n; //kullanicidan zar girmesini istiyoruz.
     
     srand(time(NULL));
-    int skor; // sonucu belirlemek için bir degisken atiyoruz
+    int skor=0; // sonucu belirlemek için bir degisken atiyoruz
     int a[n]; 
     int b[n]; //zar degerlerinin tutulmasi için hafiza 
     for (int i = 0; i < n; i++) {
