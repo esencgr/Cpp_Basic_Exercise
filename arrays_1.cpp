@@ -5,7 +5,7 @@ int main ()
 	int a[3] = {5, 6, 2};
 	cout<< a[1] <<endl;
 	cout<< a[2] + a[0] << endl;
-	a[2] = 8;
+  a[2] = 8;
 
       cout<< "a={";
 	    for (int i = 0; i <= 2; i++)
