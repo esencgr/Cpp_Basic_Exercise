@@ -14,5 +14,5 @@ int c[3][3];
       for (int j = 0; j < 3; j++)
            cout<< c[i][j]<< '  ';
   cout<< endl;
-    }
+  }
 }
