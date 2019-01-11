@@ -31,9 +31,9 @@ int main()
     cin>> x ;
     cout << "elemanlari gir:";
     int a[x];
-        for (int i = 0; i < x; i++)
-
-		cin>> a[i] ;
+        
+       for (int i = 0; i < x; i++)
+            cin>> a[i] ;
 		
     int dizi[10];
     

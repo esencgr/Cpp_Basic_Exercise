@@ -29,7 +29,7 @@ int main()
            if (eb < a[i])
               eb = a[i];
 
-	         if (ek > a[i])
+	   if (ek > a[i])
               ek = a[i]; 
         }
 

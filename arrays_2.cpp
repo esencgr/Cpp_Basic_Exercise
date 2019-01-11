@@ -24,8 +24,8 @@ int main ()
 
         for (int i = 0; i <= 4; i++){
 
-	          if (a[i] < ek)
-	          ek = a[i];
+	         if (a[i] < ek)
+	         ek = a[i];
         }
 
    cout<< "en kucuk sayi: "<< ek <<endl;
