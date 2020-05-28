@@ -9,10 +9,10 @@ int main ()
    cin>> a[i];
 
    int eb = a[0];
-       for (int i = 0; i <= 4; i++){
-	         if (a[i] > eb)
-	         eb = a[i];
-       }
+   for (int i = 0; i <= 4; i++){
+       if (a[i] > eb)
+       eb = a[i];
+   }
 
    cout<< "en buyuk sayi: " << eb << endl;
 
